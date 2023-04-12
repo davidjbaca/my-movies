@@ -16,6 +16,6 @@ MyTitles, an app that can show you OMDb information without having to go to site
 ![In Use](https://i.imgur.com/iFnEORe.png)
 
 
-
-
 LinkedIn (https://www.linkedin.com/in/david-baca-532427b1/)
+
+Portfolio (https://davidjbaca.github.io/portfolio/)
