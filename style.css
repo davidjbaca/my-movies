@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    background: linear-gradient(#d20f0f 50%, #5eb0e5 50%);
 }
 
 .container{
@@ -17,7 +17,7 @@ body{
     width: 90vw;
     max-width: 37.5em;
     padding: 3em 1.8em;
-    background-color: #1e293b;
+    background-color: #0f1855;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
