@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#d20f0f 50%, #5eb0e5 50%);
+    background: linear-gradient(#d5ea18 50%, #5eb0e5 50%);
 }
 
 .container{
@@ -17,11 +17,40 @@ body{
     width: 90vw;
     max-width: 37.5em;
     padding: 3em 1.8em;
-    background-color: #0f1855;
+    background-color: #2d43d4;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 0.6em;
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+
+.search-container input, .search-container button{
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+.search-container input{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    color: #fff;
+    padding: 0.7em;
+}
+
+.search-container input:focus{
+    border-color: #fff;
+}
+
+.search-container button{
+    background-color: #5eb0e5;
+    border: none;
+    cursor: pointer;
 }
